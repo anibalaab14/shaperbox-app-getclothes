@@ -14,7 +14,7 @@ cloudinary.v2.config({
 
 app.post('/shaperbox/v1/app-getclothes', function (req, res) {
 
-    
+
     if (req.body.screen=="front"){
     console.log(req.body.quantity);
     cloudinary.v2.search
@@ -36,6 +36,7 @@ app.post('/shaperbox/v1/app-getclothes', function (req, res) {
                 res.send(result);
             });
     }
+    
 
 });
 app.listen(process.env.PORT);
