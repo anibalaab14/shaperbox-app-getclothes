@@ -24,7 +24,7 @@ app.post('/shaperbox/v1/app-getclothes', function (req, res) {
         .execute().then(result => {
             res.send(result);
         });  
-             //Se debe agregar para que busque 
+            //Se debe agregar para que busque 
             //imagenes de pantalla informativa sobre como utilizar laapp
     }else{
         console.log(req.body.quantity);
@@ -36,7 +36,7 @@ app.post('/shaperbox/v1/app-getclothes', function (req, res) {
                 res.send(result);
             });
     }
-    
+
 
 });
 app.listen(process.env.PORT);

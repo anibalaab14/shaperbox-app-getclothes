@@ -4,8 +4,8 @@
 
 # AFTER CLONING REPOSITORY
 
-npm install
-npm start
+- npm install
+- npm start
 
 # ENVIROMENT VARIABLES
 
