@@ -1,0 +1,25 @@
+{
+  "name": "shaperbox-app-getclothes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anibalaab14/shaperbox-app-getclothes.git"
+  },
+  "author": "AlfaLabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anibalaab14/shaperbox-app-getclothes/issues"
+  },
+  "homepage": "https://github.com/anibalaab14/shaperbox-app-getclothes#readme",
+  "dependencies": {
+    "cloudinary": "^1.25.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
