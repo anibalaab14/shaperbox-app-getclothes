@@ -1,5 +1,7 @@
 # shaperbox-app-getclothes
 
+ for information about search method in cloudinary API visit https://cloudinary.com/documentation/search_api
+
 # AFTER CLONING REPOSITORY
 
 npm install
