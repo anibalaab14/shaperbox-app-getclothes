@@ -38,6 +38,6 @@ app.post('/shaperbox/v1/app-getclothes', function (req, res) {
     }
 
 
-});
+})
 app.listen(process.env.PORT);
 console.log(process.env.PORT);
